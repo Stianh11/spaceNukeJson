@@ -1,0 +1,42 @@
+{
+  "enemies":
+  [
+    {
+      "type": "fast",
+      "image": "./images/greenEnemy-removebg.png",
+      "speed": 7,
+      "points": 30,
+      "damage": 2,
+      "hp": 1
+    },
+    {
+      "type": "strong",
+      "image": "./images/redEnemy-removebg.png",
+      "speed": 3,
+      "points": 50,
+      "damage": 3,
+      "hp": 3
+      
+    },
+    {
+      "type": "normal",
+      "image": "./images/blueEnemy-removebg.png",
+      "speed": 5,
+      "points": 10,
+      "damage": 1,
+      "hp": 2
+    }
+  ],
+  "nukes":
+  [
+    {
+    "type": "nuke",
+    "image": "./images/alienNuke.png",
+    "speed": 2,
+    "points": 100,
+    "damage":  10,
+    "hp": 3
+    }
+  ]
+
+}
